@@ -2,16 +2,16 @@
 This repository contains a micro project entitled "Real Time Face Mask Detection using VGG16 CNN".
 
 # Conda Virtual Environment
-conda create --name <environment_name> python=3
-conda activate <environment_name>
-conda install -c anaconda cmake pkg-config
-conda install -c conda-forge gstreamer=1.14.5 gst-plugins-base=1.14.5 gst-plugins-good=1.14.5
-conda install -c conda-forge opencv
-conda install tensorflow keras
-conda install matplotlib
-conda install numpy
-conda install pandas
-conda install scikit-learn
+* conda create --name <environment_name> python=3
+* conda activate <environment_name>
+* conda install -c anaconda cmake pkg-config
+* conda install -c conda-forge gstreamer=1.14.5 gst-plugins-base=1.14.5 gst-plugins-good=1.14.5
+* conda install -c conda-forge opencv
+* conda install tensorflow keras
+* conda install matplotlib
+* conda install numpy
+* conda install pandas
+* conda install scikit-learn
 
 # Introduction
 The project aims to detect whether a person is wearing a face mask or not using computer vision and machine learning techniques. The project utilizes the VGG16 pre-trained deep learning model and a custom dataset consisting of images with and without masks. The project is implemented using the Keras deep learning framework, OpenCV, and Python.
