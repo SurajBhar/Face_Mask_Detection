@@ -35,5 +35,7 @@ The project utilizes the HaarCascade classifier from OpenCV to detect faces in t
 # Testing
 The project is tested using a video feed from the webcam. The model predicts whether a person is wearing a mask or not based on the input image. The predicted result is then displayed on the video feed, along with a rectangle around the detected face.
 
+<img width="957" alt="Face_Mask" src="https://user-images.githubusercontent.com/115887529/222912550-46d4abba-be67-4161-a1c9-4c77131cb521.png">
+
 # Conclusion
 The project demonstrates the use of computer vision and machine learning techniques to detect face masks in real-time. The project utilizes the VGG16 model for feature extraction and the HaarCascade classifier for face detection. The project can be further improved by using other pre-trained models or by training a custom model on a larger dataset.
