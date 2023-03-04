@@ -27,6 +27,8 @@ The pretrained VGG16 model is used as the base model for this project. The last 
 # Training
 The model is trained using the binary cross-entropy loss function and the Adam optimizer. The model is trained for five epochs, and the validation data is used to evaluate the performance of the model. The train_test_split function from the scikit-learn library is used to split the dataset into training and testing sets.
 
+<img width="1121" alt="Training" src="https://user-images.githubusercontent.com/115887529/222912049-c9ecf254-e847-41cc-b633-b7fc4fb5a767.png">
+
 # Face Detection
 The project utilizes the HaarCascade classifier from OpenCV to detect faces in the input image. The detectMultiScale method is used to detect faces in the grayscale image. The coordinates of the faces are then used to draw a rectangle around the detected face in the original image.
 
