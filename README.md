@@ -1,7 +1,7 @@
 # Face_Mask_Detection
 This repository contains a micro project entitled "Real Time Face Mask Detection using VGG16 CNN".
 
-# Conda Virtual Environment Setup:
+# Conda Virtual Environment
 conda create --name <environment_name> python=3
 conda activate <environment_name>
 conda install -c anaconda cmake pkg-config
