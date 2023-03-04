@@ -22,6 +22,8 @@ Dataset consists of 7553 RGB images in 2 folders as with_mask and without_mask. 
 # Model Architecture
 The pretrained VGG16 model is used as the base model for this project. The last layer of the VGG16 model is replaced with a Dense layer with a sigmoid activation function. The Dense layer consists of one neuron as the output is binary, i.e., whether the person is wearing a mask or not. The weights of the VGG16 model are frozen to avoid overfitting.
 
+<img width="701" alt="model" src="https://user-images.githubusercontent.com/115887529/222911838-e94a9a7c-66ae-4fce-a0d9-2d5a68ba91a1.png">
+
 # Training
 The model is trained using the binary cross-entropy loss function and the Adam optimizer. The model is trained for five epochs, and the validation data is used to evaluate the performance of the model. The train_test_split function from the scikit-learn library is used to split the dataset into training and testing sets.
 
